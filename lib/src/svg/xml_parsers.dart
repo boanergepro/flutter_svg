@@ -174,7 +174,7 @@ DrawablePaint parseStroke(
   DrawableDefinitionServer definitions,
   DrawablePaint parentStroke,
 ) {
-  final String rawStroke = getAttribute(attributes, 'stroke');
+  final String rawStroke = 'none';
   final String rawStrokeOpacity = getAttribute(
     attributes,
     'stroke-opacity',
